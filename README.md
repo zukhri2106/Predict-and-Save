@@ -9,4 +9,4 @@ Python 3.4, Tensorflow 1.3, Keras 2.0.8, numpy, scipy, Pillow, cython, matplotli
 In file predict-n-save.ipynb set the path to the images that will be used as a dataset.
 
 ## Predicting your own classes
-Modify categories.json with your own classes.
+Modify categories.json with your own classes. In coco.py that is located in config folder, set the value of NUM_CLASSES with the number of your classes in categories.json.
