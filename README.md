@@ -6,4 +6,4 @@ This software create instances dataset in COCO format (json file) as well as YOL
 Python 3.4, Tensorflow 1.3, Keras 2.0.8, numpy, scipy, Pillow, cython, matplotlib, scikit-image, opencv-python, h5py, imgaugand IPython
 
 ## Usage
-Run 
+in file predict-n-save.ipynb set the path to the images that willbe used as a dataset.
