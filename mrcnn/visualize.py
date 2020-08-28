@@ -166,8 +166,11 @@ def display_instances(image, boxes, masks, class_ids, class_names,
             ax.add_patch(p)
     ax.imshow(masked_image.astype(np.uint8))
     if auto_show:
-        plt.savefig(save_path)
-        plt.show()
+        if save_path is None:
+            plt.show()
+        else:
+            plt.savefig(save_path)
+            plt.show()
 
 
 
