@@ -9,4 +9,4 @@ Python 3.4, Tensorflow 1.3, Keras 2.0.8, numpy, scipy, Pillow, cython, matplotli
 predict-n-save.ipynb will create a json file that contains the annotations from the prediction. It will also generate files that stored the bounding boxes information in YOLO format.
 
 ## Predicting your own classes
-Modify categories.json with your own classes. In coco.py that is located in config folder, set the value of NUM_CLASSES with the number of your classes in categories.json.
+Modify categories.json with your own classes. In coco.py which is located in config folder, set the value of NUM_CLASSES with the number of your classes in categories.json.
