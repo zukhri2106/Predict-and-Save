@@ -5,9 +5,9 @@ Object detection is an AI that requires training with huge amount of dataset. Pr
 
 ## Output
 predict-n-save.ipynb will generate dataset with 2 different formats, as different labeling tools use different dataset format.
-1. **COCO Json format**
+1. **COCO Json format**  
 Prediction will be stored in Json file with [COCO format](https://www.immersivelimit.com/tutorials/create-coco-annotations-from-scratch). With tools such as [Coco-Annotator](https://github.com/jsbroks/coco-annotator.git) the user can import the json file and modify the annotations.
-2. **txt files with YOLO format**
+2. **txt files with YOLO format**  
 Annotations are also saved in [YOLO format](https://github.com/AlexeyAB/Yolo_mark/issues/60). One common tools that uses this format to label images is [labelImg](https://github.com/tzutalin/labelImg).
 
 ## Requirements
